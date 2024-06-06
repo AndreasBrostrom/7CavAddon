@@ -131,6 +131,10 @@
             <English>Bravo Combat Life Saver (VIKING-4)</English>
         </Key>
 
+        <Key ID="STR_cav_Infantry_Bravo_Labeled_Cav_B_B_IFV_Commander_2_6_F">
+            <English>Commander (SIERRA-6)</English>
+        </Key>
+
         <Key ID="STR_cav_Infantry_Bravo_Labeled_Cav_B_B_IFV_Commander_2_1_F">
             <English>Commander (SIERRA-1)</English>
         </Key>
@@ -144,17 +148,24 @@
             <English>Commander (SIERRA-4)</English>
         </Key>
         
-        <Key ID="STR_cav_Infantry_Bravo_Labeled_Cav_B_B_IFV_Gunner_2_1_F">
-            <English>Gunner (SIERRA-1)</English>
+        <Key ID="STR_cav_Infantry_Bravo_Labeled_Cav_B_B_IFV_Driver_2_5_F">
+            <English>Driver (SIERRA-5)</English>
         </Key>
-        <Key ID="STR_cav_Infantry_Bravo_Labeled_Cav_B_B_IFV_Gunner_2_2_F">
-            <English>Gunner (SIERRA-2)</English>
+        <Key ID="STR_cav_Infantry_Bravo_Labeled_Cav_B_B_IFV_Driver_2_6_F">
+            <English>Driver (SIERRA-6)</English>
         </Key>
-        <Key ID="STR_cav_Infantry_Bravo_Labeled_Cav_B_B_IFV_Gunner_2_3_F">
-            <English>Gunner (SIERRA-3)</English>
+
+        <Key ID="STR_cav_Infantry_Bravo_Labeled_Cav_B_B_IFV_Driver_2_1_F">
+            <English>Driver (SIERRA-1)</English>
         </Key>
-        <Key ID="STR_cav_Infantry_Bravo_Labeled_Cav_B_B_IFV_Gunner_2_4_F">
-            <English>Gunner (SIERRA-4)</English>
+        <Key ID="STR_cav_Infantry_Bravo_Labeled_Cav_B_B_IFV_Driver_2_2_F">
+            <English>Driver (SIERRA-2)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Bravo_Labeled_Cav_B_B_IFV_Driver_2_3_F">
+            <English>Driver (SIERRA-3)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Bravo_Labeled_Cav_B_B_IFV_Driver_2_4_F">
+            <English>Driver (SIERRA-4)</English>
         </Key>
 
         <!-- Groups -->

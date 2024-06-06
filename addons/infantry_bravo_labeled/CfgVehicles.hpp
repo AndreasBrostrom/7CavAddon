@@ -78,12 +78,12 @@ class CfgVehicles {
     UNIT_BRAVO(Cav_B_B_IFV_Driver_2_6_F,Cav_B_B_IFV_Driver_F,2,6);
 
     UNIT_BRAVO(Cav_B_B_IFV_Commander_2_1_F,Cav_B_B_IFV_Commander_F,2,1);
-    UNIT_BRAVO(Cav_B_B_IFV_Gunner_2_1_F,Cav_B_B_IFV_Gunner_F,2,1);
+    UNIT_BRAVO(Cav_B_B_IFV_Driver_2_1_F,Cav_B_B_IFV_Gunner_F,2,1);
     UNIT_BRAVO(Cav_B_B_IFV_Commander_2_2_F,Cav_B_B_IFV_Commander_F,2,2);
-    UNIT_BRAVO(Cav_B_B_IFV_Gunner_2_2_F,Cav_B_B_IFV_Gunner_F,2,2);
+    UNIT_BRAVO(Cav_B_B_IFV_Driver_2_2_F,Cav_B_B_IFV_Gunner_F,2,2);
     UNIT_BRAVO(Cav_B_B_IFV_Commander_2_3_F,Cav_B_B_IFV_Commander_F,2,3);
-    UNIT_BRAVO(Cav_B_B_IFV_Gunner_2_3_F,Cav_B_B_IFV_Gunner_F,2,3);
+    UNIT_BRAVO(Cav_B_B_IFV_Driver_2_3_F,Cav_B_B_IFV_Gunner_F,2,3);
     UNIT_BRAVO(Cav_B_B_IFV_Commander_2_4_F,Cav_B_B_IFV_Commander_F,2,4);
-    UNIT_BRAVO(Cav_B_B_IFV_Gunner_2_4_F,Cav_B_B_IFV_Gunner_F,2,4);
+    UNIT_BRAVO(Cav_B_B_IFV_Driver_2_4_F,Cav_B_B_IFV_Gunner_F,2,4);
 
 };

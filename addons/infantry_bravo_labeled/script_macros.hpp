@@ -110,6 +110,19 @@
             vehicle = QUOTE(soldier2); \
         }; \
     }
+#define INFANTRY_TEAM_IFVCREW_1(classname,soldier1) \
+    class classname { \
+        name = CSTRING(classname); \
+        icon = "\A3\ui_f\data\map\markers\nato\b_mech_inf.paa"; \
+        faction = "cav_blu_usa_f"; \
+        side = 1; \
+        class Unit0 { \
+            position[] = {0, 0, 0}; \
+            rank = "PRIVATE"; \
+            side = 1; \
+            vehicle = QUOTE(soldier1); \
+        }; \
+    }
 #define INFANTRY_UNIT_RANKED_1(classname,Soldier,SoldierRank) \
     class classname { \
         name = CSTRING(classname); \
