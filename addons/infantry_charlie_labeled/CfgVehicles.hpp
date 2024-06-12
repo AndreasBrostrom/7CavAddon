@@ -5,12 +5,12 @@ class CfgVehicles {
 
     class Cav_B_C_SquadLeader_F;
     class Cav_B_C_FireTeamLeader_F;
+    
     class Cav_B_C_AutomaticRifleman_F;
     class Cav_B_C_Grenadier_F;
     class Cav_B_C_Rifleman_F;
     class Cav_B_C_CombatLifeSaver_F;
 
-    class Cav_B_C_FireTeamLeader_F;
     class Cav_B_C_MachineGunner_F;
     class Cav_B_C_AssistantMachineGunner_F;
     class Cav_B_C_RiflemanAT_F;
