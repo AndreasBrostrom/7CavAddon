@@ -19,9 +19,13 @@
 
 params [["_unit", objNull, [objNull]]];
 
-private _company = getText (missionConfigFile >> "CfgLoadouts" >> typeOf _unit >> "company");
+private ["_company","_platoon","_squad"];
+
+private _classname = typeOf _unit;
+
+_company = getText (missionConfigFile >> "CfgLoadouts" >> _classname >> "company");
 if (_company == "") then {
-    _company = getText (configFile >> "CfgVehicles" >> typeOf _unit >> "cav_company");
+    _company = getText (configFile >> "CfgVehicles" >> _classname >> "cav_company");
 };
 _company = toLower _company;
 _company = switch (key) do {
@@ -33,17 +37,20 @@ _company = switch (key) do {
     case "foxtrot": {"f"};
     default {""};
 };
-private _platoon = getNumber (configFile >> "CfgVehicles" >> typeOf _unit >> "cav_platoon");
-if (_platoon == 0) then {
-    _platoon = getNumber (configFile >> "CfgLoadouts" >> typeOf _unit >> "platoon");
+_platoon = getNumber (configFile >> "CfgLoadouts" >> _classname >> "platoon");
+if (_platoon <= 0) then {
+    _platoon = getNumber (configFile >> "CfgVehicles" >> _classname >> "cav_platoon");
 };
 
-private _squad   = getNumber (configFile >> "CfgVehicles" >> typeOf _unit >> "cav_squad");
-if (_squad == 0) then {
-    _squad = getNumber (configFile >> "CfgLoadouts" >> typeOf _unit >> "squad");
+_squad = getNumber (configFile >> "CfgLoadouts" >> _classname >> "squad");
+if (_squad <= 0) then {
+    _squad = getNumber (configFile >> "CfgVehicles" >> _classname >> "cav_squad");
 };
 
 private _callsign = format["%1_%2_%3_Display",_squad,_platoon,_company];
 _callsign = CSTRING(_callsign);
+
+private _currentID = groupId group _unit;
+if (_currentID == _callsign) exitWith {};
 
 [_group, _callsign] call CBA_fnc_setCallsign;
