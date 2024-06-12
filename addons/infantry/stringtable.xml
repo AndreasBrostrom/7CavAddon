@@ -245,5 +245,27 @@
             <English>Combat Life Saver</English>
         </Key>
 
+
+        <!-- SQUAD TEAM NAME -->
+        <Key ID="STR_cav_Infantry_1_1_C_Display">
+            <English>BANDIT-1</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_2_1_C_Display">
+            <English>BANDIT-2</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_3_1_C_Display">
+            <English>BANDIT-3</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_4_1_C_Display">
+            <English>BANDIT-4</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_5_1_C_Display">
+            <English>BANDIT-5</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_6_1_C_Display">
+            <English>BANDIT-6</English>
+        </Key>
+
+
     </Package>
 </Project>
