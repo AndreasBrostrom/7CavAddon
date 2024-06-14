@@ -30,8 +30,7 @@ class CfgVehicles {
 
         cav_company = "bravo";
     };
-
-
+    
     class Cav_B_Rifleman_F;
     class Cav_B_B_Rifleman_F: Cav_B_Rifleman_F {
         _generalMacro = "Cav_B_B_Rifleman_F";
@@ -218,6 +217,40 @@ class CfgVehicles {
 
         cav_company = "bravo";
     };
+
+    class Cav_B_MedicTeamLeader_F;
+    class Cav_B_B_MedicTeamLeader_F: Cav_B_MedicTeamLeader_F {
+        _generalMacro = "Cav_B_B_MedicTeamLeader_F";
+        scope = 2;
+        scopeCurator = 2;
+
+        editorSubcategory = "Cav_EdSubcat_Medical_Bravo";
+
+        cav_company = "bravo";
+    };
+
+    class Cav_B_MedicTeamMember_F;
+    class Cav_B_B_MedicTeamMember_F: Cav_B_MedicTeamMember_F {
+        _generalMacro = "Cav_B_B_MedicTeamMember_F";
+        scope = 2;
+        scopeCurator = 2;
+
+        editorSubcategory = "Cav_EdSubcat_Medical_Bravo";
+
+        cav_company = "bravo";
+    };
+
+    class Cav_B_Surgeon_F;
+    class Cav_B_B_Surgeon_F: Cav_B_Surgeon_F {
+        _generalMacro = "Cav_B_B_Surgeon_F";
+        scope = 2;
+        scopeCurator = 2;
+
+        editorSubcategory = "Cav_EdSubcat_Medical_Bravo";
+
+        cav_company = "bravo";
+    };
+    
     class Cav_B_CombatLifeSaver_F;
     class Cav_B_B_CombatLifeSaver_F: Cav_B_CombatLifeSaver_F {
         _generalMacro = "Cav_B_B_CombatLifeSaver_F";

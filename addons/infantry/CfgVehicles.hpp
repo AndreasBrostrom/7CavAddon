@@ -203,7 +203,6 @@ class CfgVehicles {
         displayName = CSTRING(Cav_B_Machinegunner_F);
         author = ECSTRING(Main,ModTeam);
 
-        icon = "iconManLeader";
         role = "MachineGunner";
 
         weapons[] = {"rhs_weap_m240B","Throw","Put"};
@@ -372,6 +371,42 @@ class CfgVehicles {
         scope = 2;
         scopeCurator = 2;
         displayName = CSTRING(Cav_B_Medic_F);
+        author = ECSTRING(Main,ModTeam);
+
+        icon = "iconManMedic";
+        role = "CombatLifeSaver";
+
+        trait = "Medic";
+    };
+    class Cav_B_MedicTeamLeader_F: Cav_B_Rifleman_F {
+        _generalMacro = "Cav_B_Medic_F";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(Cav_B_MedicTeamLeader_F);
+        author = ECSTRING(Main,ModTeam);
+
+        icon = "iconManLeader";
+        role = "CombatLifeSaver";
+
+        trait = "Medic";
+    };
+    class Cav_B_MedicTeamMember_F: Cav_B_Rifleman_F {
+        _generalMacro = "Cav_B_MedicTeamMember_F";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(Cav_B_MedicTeamMember_F);
+        author = ECSTRING(Main,ModTeam);
+
+        icon = "iconManMedic";
+        role = "CombatLifeSaver";
+
+        trait = "Medic";
+    };
+    class Cav_B_Surgeon_F: Cav_B_Rifleman_F {
+        _generalMacro = "Cav_B_Surgeon_F";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(Cav_B_Surgeon_F);
         author = ECSTRING(Main,ModTeam);
 
         icon = "iconManMedic";

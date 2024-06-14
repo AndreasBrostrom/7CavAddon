@@ -96,6 +96,15 @@
         <Key ID="STR_cav_Infantry_Cav_B_Medic_F">
             <English>Medic</English>
         </Key>
+        <Key ID="STR_cav_Infantry_Cav_B_MedicTeamLeader_F">
+            <English>Team Leader</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Cav_B_MedicTeamMember_F">
+            <English>Team Member</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Cav_B_Surgeon_F">
+            <English>Team Surgeon</English>
+        </Key>
         <Key ID="STR_cav_Infantry_Cav_B_CombatLifeSaver_F">
             <English>Combat Life Saver</English>
         </Key>

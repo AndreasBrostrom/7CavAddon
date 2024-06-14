@@ -78,3 +78,35 @@
             vehicle = QUOTE(soldier2); \
         }; \
     }
+
+#define MEDIC_GROUP_4(classname,soldier1,soldier2,soldier3,soldier4) \
+    class classname { \
+        name = CSTRING(classname); \
+        icon = "\A3\ui_f\data\map\markers\nato\b_mech_inf.paa"; \
+        faction = "cav_blu_usa_f"; \
+        side = 1; \
+        class Unit0 { \
+            position[] = {0, 0, 0}; \
+            rank = "SERGEANT"; \
+            side = 1; \
+            vehicle = QUOTE(soldier1); \
+        }; \
+        class Unit1 { \
+            position[] = {0.0, -1.0, 0.0}; \
+            rank = "PRIVATE"; \
+            side = 1; \
+            vehicle = QUOTE(soldier2); \
+        }; \
+        class Unit2 { \
+            position[] = {1.0, 0, 0}; \
+            rank = "PRIVATE"; \
+            side = 1; \
+            vehicle = QUOTE(soldier1); \
+        }; \
+        class Unit3 { \
+            position[] = {1.0, -1.0, 0.0}; \
+            rank = "PRIVATE"; \
+            side = 1; \
+            vehicle = QUOTE(soldier2); \
+        }; \
+    }
